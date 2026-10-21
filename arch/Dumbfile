@@ -1,0 +1,30 @@
+/* This is a dumbfile default compiler template */
+mov  name;
+
+mov description;
+
+mov author;
+
+mov version;
+
+mov build_type;
+
+focus name;
+push 'Example'
+jmp 0x0000A;
+
+focus description;
+push 'This is the default dumbfile example.'
+jmp 0x000B1;
+
+focus author;
+push 'nobody'
+jmp 0x00C00;
+
+focus version;
+push 'v0.0.1'
+jmp 0x00D10;
+
+focus build_type;
+push 0x000A4;
+jmp 0x00001;
